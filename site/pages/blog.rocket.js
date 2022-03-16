@@ -1,7 +1,8 @@
 /* START - Rocket auto generated - do not touch */
-export const sourceRelativeFilePath = 'index.rocket.js';
+export const sourceRelativeFilePath = 'blog.rocket.js';
 import { html } from './recursive.data.js';
-export { html };
+import { layout } from './local.data.js';
+export { html, layout };
 /* END - Rocket auto generated - do not touch */
 
 import { PageTree } from '@rocket/engine';

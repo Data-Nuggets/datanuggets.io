@@ -1,0 +1,20 @@
+.landing-hero {
+    width: 100%;
+    height: calc(100vh - 4.5rem);
+    padding: 15% 0 0 10%;
+}
+
+.landing-hero h1 {
+    font-weight: bolder;
+    color: var(--color-blue);
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+.landing-hero h1:nth-of-type(2) {
+    color: var(--color-orange);
+}
+
