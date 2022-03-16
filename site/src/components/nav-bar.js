@@ -11,7 +11,7 @@ export class NavBar extends LitElement {
         super();
         this.navItems = [
             { label: "Services", target: "#services" },
-            { label: "About us", target: "#about-us" },
+            { label: "About", target: "#about" },
             { label: "Contact", target: "#contact" },
         ];
     }
@@ -29,11 +29,11 @@ export class NavBar extends LitElement {
       color: var(--color-white);
       text-decoration: none;
       font-weight: 500;
-        transition: 100ms ease-in-out;
+      transition: 100ms ease-in-out;
     }
 
     a:hover {
-        color: var(--color-blue);
+      color: var(--color-blue);
     }
 
     img {
@@ -43,7 +43,7 @@ export class NavBar extends LitElement {
 
     render() {
         return html`
-      <img src="../public/data-nuggets-logo.png" />
+      <a href="/"><img src="../public/data-nuggets-logo.png" /></a>
       ${this.navItems.map(
             (navItem) => html`<a href="${navItem.target}">${navItem.label}</a>`
         )}
