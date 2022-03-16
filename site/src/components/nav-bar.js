@@ -23,6 +23,11 @@ export class NavBar extends LitElement {
       align-items: center;
       width: 100%;
       padding: 1rem;
+
+      position: sticky;
+      top: 0;
+      left: 0;
+      background-color: rgba(0,0,0,0.4);
     }
 
     a {
@@ -38,6 +43,11 @@ export class NavBar extends LitElement {
 
     img {
       width: 4rem;
+    }
+
+    @media only screen and (max-width: 720px) {
+        :host {
+            display: none;
     }
   `;
 

@@ -44,8 +44,21 @@ It's not about the data. It's what you do with it.
 
 Data Nuggets is a one man company built on cum, sweat and beers.
 
-If there's a hurdle, we'll find a way to climb over it.
+If there's a hurdle, you can trust that I'll find a way to climb over it.
 
 </span>
+
+</section>
+
+<section id="contact">
+
+# Contact
+
+### Lauri Huhta 
+
+- CEO
+- Data Engineer
+- +358 44 2065503
+- lauri@datanuggets.io
 
 </section>
