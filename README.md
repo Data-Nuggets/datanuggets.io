@@ -1,10 +1,4 @@
-# Rocket Starter Kit: Blog
-
-```
-npx @rocket/create@latest --template blog
-```
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+# Data Nuggets Website
 
 ## 🚀 Project Structure
 

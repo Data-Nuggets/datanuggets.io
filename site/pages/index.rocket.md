@@ -15,3 +15,37 @@ export { html, layout };
 It's not about the data. It's what you do with it.
 
 </main>
+
+<section id="services">
+
+# Services
+
+### Consulting
+
+- Data Engineering
+- MLOps consulting
+- Database Optimization
+- Building data streaming architectures
+
+### Tech
+
+- Python
+- R 
+- Kibana
+- Airflow
+
+</section>
+
+<section id="about">
+
+# About
+
+<span>
+
+Data Nuggets is a one man company built on cum, sweat and beers.
+
+If there's a hurdle, we'll find a way to climb over it.
+
+</span>
+
+</section>
