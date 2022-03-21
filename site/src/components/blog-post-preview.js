@@ -1,27 +1,29 @@
-import { html, css, LitElement } from 'lit';
+import { html, css, LitElement } from "lit";
 
 export class BlogPostPreview extends LitElement {
-  static get properties() {
-    return {
-      post: { type: Object },
-    };
-  }
+    static get properties() {
+        return {
+            post: { type: Object },
+        };
+    }
 
-  render() {
-    return html`
+    render() {
+        return html`
       <article class="post-preview">
         <header>
           <p class="publish-date">${this.post.publishDate}</p>
-          <a href="${this.post.url}"><h1 class="title">${this.post.title}</h1></a>
+          <a href="${this.post.url}"
+            ><h1 class="title">${this.post.title}</h1></a
+          >
         </header>
         <p>${this.post.description}</p>
         <a href=${this.post.url}>Read more</a>
       </article>
     `;
-  }
+    }
 
-  static get styles() {
-    return css`
+    static get styles() {
+        return css`
       .content :global(main > * + *) {
         margin-top: 1rem;
       }
@@ -53,13 +55,17 @@ export class BlogPostPreview extends LitElement {
         color: var(--theme-text-lighter);
       }
 
+      a {
+        text-decoration: none;
+      }
+
       .title {
         font-size: 2.25rem;
         font-weight: 700;
-        color: var(--theme-text);
+        color: var(--color-gray-300);
       }
     `;
-  }
+    }
 }
 
-customElements.define('blog-post-preview', BlogPostPreview);
+customElements.define("blog-post-preview", BlogPostPreview);

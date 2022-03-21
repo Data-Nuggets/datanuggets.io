@@ -44,5 +44,6 @@ export function baseHead({ title }) {
       rel="stylesheet"
       href="resolve:@data-nuggets/web/styles/landing.css"
     />
+    <link rel="stylesheet" href="resolve:@data-nuggets/web/styles/blog.css" />
   `;
 }
