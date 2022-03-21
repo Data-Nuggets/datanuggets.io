@@ -16,8 +16,8 @@ export class BlogPostPreview extends LitElement {
             ><h1 class="title">${this.post.title}</h1></a
           >
         </header>
-        <p>${this.post.description}</p>
-        <a href=${this.post.url}>Read more</a>
+        <p class="description">${this.post.description}</p>
+        <a href=${this.post.url} class="read-more-link">Read more</a>
       </article>
     `;
     }
@@ -39,7 +39,6 @@ export class BlogPostPreview extends LitElement {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-bottom: 2rem;
         text-align: left;
       }
 
@@ -55,6 +54,10 @@ export class BlogPostPreview extends LitElement {
         color: var(--theme-text-lighter);
       }
 
+      .description {
+        color: var(--color-gray-500);
+      }
+
       a {
         text-decoration: none;
       }
@@ -63,6 +66,10 @@ export class BlogPostPreview extends LitElement {
         font-size: 2.25rem;
         font-weight: 700;
         color: var(--color-gray-300);
+      }
+
+      .read-more-link {
+        color: var(--color-blue);
       }
     `;
     }
