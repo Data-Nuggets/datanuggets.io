@@ -2,12 +2,16 @@ html {
   scroll-behavior: smooth;
 }
 
-.landing-hero main {
+main {
   width: 100%;
   height: calc(100vh - 4.5rem);
 }
 
-.landing-hero h1 {
+main.blog-main {
+    height: 50vh;
+}
+
+h1 {
   font-weight: bolder;
   color: var(--color-blue);
   margin: 0;
@@ -17,16 +21,16 @@ html {
   text-transform: uppercase;
 }
 
-.landing-hero h1:nth-of-type(2) {
+h1:nth-of-type(2) {
   color: var(--color-orange);
 }
 
-.landing-hero h3 {
+h3 {
   color: var(--color-orange);
 }
 
-.landing-hero main,
-.landing-hero section {
+main,
+section {
   width: 100%;
   height: 100vh;
   padding: 15% 0 0 10%;
@@ -55,16 +59,16 @@ a {
 }
 
 @media only screen and (max-width: 720px) {
-  .landing-hero main {
+  main {
     height: 100vh;
   }
 
-  .landing-hero h1 {
+  h1 {
     font-size: 4rem;
   }
 
-  .landing-hero main,
-  .landing-hero section {
+  main,
+  section {
     padding: 50% 5% 0 10%;
   }
 }

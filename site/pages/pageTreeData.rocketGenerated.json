@@ -56,16 +56,16 @@
       "layout": false
     },
     {
-      "title": "Example Blog",
-      "h1": "\n            \n          ",
-      "name": "\n            \n          ",
-      "menuLinkText": "\n            \n          ",
+      "title": "Blog",
+      "h1": "Blog",
+      "name": "Blog",
+      "menuLinkText": "Blog",
       "url": "/blog/",
       "outputRelativeFilePath": "blog/index.html",
       "sourceRelativeFilePath": "blog.rocket.js",
       "level": 1,
-      "description": "The perfect starter for your perfect blog.",
-      "permalink": "https://example.com/"
+      "description": "This is where the good stuff's at",
+      "permalink": "https://datanuggets.io/"
     }
   ]
 }

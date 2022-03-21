@@ -13,9 +13,7 @@ export class LayoutMain {
 
         <body>
             <nav-bar></nav-bar>
-            <div class="landing-hero">
-              ${data.content()}
-            </div>
+            ${data.content()}
         </body>
       </html-server-only>
     `;
