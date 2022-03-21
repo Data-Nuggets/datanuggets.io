@@ -1,6 +1,6 @@
 @font-face {
     font-family: "uni sans";
-    src: url("../../public/uni-sans/Uni_Sans_Heavy.otf");
+    src: url("/uni-sans/Uni_Sans_Heavy.otf");
 }
 
 :root {
