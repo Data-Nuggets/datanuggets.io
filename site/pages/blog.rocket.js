@@ -8,7 +8,6 @@ export { html, layout };
 import { PageTree } from "@rocket/engine";
 import { nothing } from "lit";
 import "../src/components/blog-post-preview.js";
-import "../src/components/blog-header.js";
 
 // CONFIGURATION PARTS
 //

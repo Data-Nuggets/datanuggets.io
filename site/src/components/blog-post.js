@@ -2,19 +2,19 @@ import { html, css, LitElement } from 'lit';
 import './blog-author.js';
 
 export class BlogPost extends LitElement {
-  static get properties() {
-    return {
-      title: { type: String },
-      author: { type: String },
-      authorHref: { type: String },
-      publishDate: { type: String, attribute: 'publish-date' },
-      heroImage: { type: String, attribute: 'hero-image' },
-      alt: { type: String },
-    };
-  }
+    static get properties() {
+        return {
+            title: { type: String },
+            author: { type: String },
+            authorHref: { type: String },
+            publishDate: { type: String, attribute: 'publish-date' },
+            heroImage: { type: String, attribute: 'hero-image' },
+            alt: { type: String },
+        };
+    }
 
-  render() {
-    return html`
+    render() {
+        return html`
       <div class="layout">
         <article class="content">
           <div>
@@ -40,10 +40,10 @@ export class BlogPost extends LitElement {
         </article>
       </div>
     `;
-  }
+    }
 
-  static get styles() {
-    return css`
+    static get styles() {
+        return css`
       .hero-image {
         width: 100vw;
         object-fit: cover;
@@ -96,12 +96,17 @@ export class BlogPost extends LitElement {
         color: var(--theme-text-lighter);
       }
 
+        blog-author {
+            color: var(--color-gray-400);
+        }
+
       .title {
         font-size: 2.25rem;
         font-weight: 700;
+          color: var(--color-gray-200);
       }
     `;
-  }
+    }
 }
 
 customElements.define('blog-post', BlogPost);
