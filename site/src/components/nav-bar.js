@@ -53,7 +53,7 @@ export class NavBar extends LitElement {
 
     render() {
         return html`
-      <a href="/"><img src="../public/data-nuggets-logo.png" /></a>
+      <a href="/"><img src="/data-nuggets-logo.png" /></a>
       ${this.navItems.map(
             (navItem) => html`<a href="${navItem.target}">${navItem.label}</a>`
         )}
