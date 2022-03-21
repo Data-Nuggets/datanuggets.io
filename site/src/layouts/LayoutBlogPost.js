@@ -1,18 +1,16 @@
 import { html } from 'lit';
 import { baseHead } from '../parts/baseHead.js';
-import '../components/blog-header.js';
 import '../components/blog-post.js';
+import '../components/nav-bar.js';
 
 export class LayoutBlogPost {
     render(data) {
         const {
             title,
-            description,
             publishDate,
             author,
             authorHref,
             heroImage,
-            permalink,
             alt,
             lang,
         } = data;
@@ -23,8 +21,8 @@ export class LayoutBlogPost {
         </head>
 
         <body>
-          <blog-header></blog-header>
-          <div class="wrapper">
+          <nav-bar></nav-bar>
+          <div class="blog-post-wrapper">
             <blog-post
               title=${title}
               author=${author}
