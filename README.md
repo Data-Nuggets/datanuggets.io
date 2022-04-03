@@ -35,4 +35,4 @@ All commands are run from the root of the project, from a terminal:
 
 ## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://rocket.modern-web.dev) or jump into our [Discord server](https://rocket.modern-web.dev/chat).
+Feel free to check [our documentation](https://next.rocket.modern-web.dev/) or jump into our [Discord server](https://rocket.modern-web.dev/chat).
