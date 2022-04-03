@@ -10,7 +10,6 @@ export class NavBar extends LitElement {
     constructor() {
         super();
         this.navItems = [
-            { label: "About", target: "/" },
             { label: "Blog", target: "/blog/" },
         ];
     }
