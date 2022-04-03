@@ -1,14 +1,54 @@
 {
-  "title": "Example Blog",
-  "h1": "\n            \n          ",
-  "name": "\n            \n          ",
-  "menuLinkText": "\n            \n          ",
+  "title": "",
+  "h1": "Data",
+  "headlinesWithId": [
+    {
+      "text": "Data",
+      "id": "data",
+      "level": 1
+    },
+    {
+      "text": "Nuggets",
+      "id": "nuggets",
+      "level": 1
+    },
+    {
+      "text": "Services",
+      "id": "services",
+      "level": 1
+    },
+    {
+      "text": "Consulting",
+      "id": "consulting",
+      "level": 3
+    },
+    {
+      "text": "Tech",
+      "id": "tech",
+      "level": 3
+    },
+    {
+      "text": "About",
+      "id": "about",
+      "level": 1
+    },
+    {
+      "text": "Contact",
+      "id": "contact",
+      "level": 1
+    },
+    {
+      "text": "Lauri Huhta",
+      "id": "lauri-huhta",
+      "level": 3
+    }
+  ],
+  "name": "Data",
+  "menuLinkText": "Data",
   "url": "/",
   "outputRelativeFilePath": "index.html",
-  "sourceRelativeFilePath": "index.rocket.js",
+  "sourceRelativeFilePath": "index.rocket.md",
   "level": 0,
-  "description": "The perfect starter for your perfect blog.",
-  "permalink": "https://example.com/",
   "children": [
     {
       "name": "blog/index.rocket.js",
@@ -17,6 +57,7 @@
       "outputRelativeFilePath": "blog/index.html",
       "sourceRelativeFilePath": "blog/index.rocket.js",
       "level": 1,
+      "layout": false,
       "children": [
         {
           "title": "Hello world!",
@@ -27,19 +68,16 @@
           "outputRelativeFilePath": "blog/hello-world/index.html",
           "sourceRelativeFilePath": "blog/hello-world.rocket.md",
           "level": 2,
-          "alt": "",
           "author": "Lauri Huhta",
           "authorHref": "https://www.linkedin.com/in/lauri-huhta-254502137/",
           "description": "Just a Hello World Post!",
-          "heroImage": "",
-          "publishDate": "12 Sep 2021",
-          "value": 128
+          "publishDate": "12 Sep 2021"
         },
         {
           "title": "With Image!",
-          "h1": "\n            \n          ",
-          "name": "\n            \n          ",
-          "menuLinkText": "\n            \n          ",
+          "h1": "With Image!",
+          "name": "With Image!",
+          "menuLinkText": "With Image!",
           "url": "/blog/with-image/",
           "outputRelativeFilePath": "blog/with-image/index.html",
           "sourceRelativeFilePath": "blog/with-image.rocket.md",
@@ -52,8 +90,7 @@
           "publishDate": "13 Sep 2021",
           "value": 128
         }
-      ],
-      "layout": false
+      ]
     },
     {
       "title": "Blog",
@@ -64,8 +101,7 @@
       "outputRelativeFilePath": "blog/index.html",
       "sourceRelativeFilePath": "blog.rocket.js",
       "level": 1,
-      "description": "This is where the good stuff's at",
-      "permalink": "https://datanuggets.io/"
+      "description": "This is where the good stuff's at"
     }
   ]
 }
