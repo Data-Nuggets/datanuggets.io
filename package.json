@@ -16,8 +16,9 @@
     "start": "NODE_DEBUG=engine:rendering rocket start --open"
   },
   "devDependencies": {
-    "@rocket/cli": "^0.20.0-alpha.16",
-    "@rocket/engine": "^0.1.0-alpha.22",
+    "@rocket/cli": "^0.20.0-alpha.17",
+    "@rocket/components": "^0.1.0-alpha.1",
+    "@rocket/engine": "^0.1.0-alpha.23",
     "lit": "^2.2.1"
   },
   "@rocket/template-name": "Blog"
