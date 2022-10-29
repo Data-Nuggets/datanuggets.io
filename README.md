@@ -2,9 +2,18 @@
 
 ## Running the project
 
+### Docker
+
 Make sure you have Docker installed. Then just run `./run.sh` to start the dev env in Docker.
 
 You can find the site in http://localhost:8000
+
+### NPM
+
+With npm installed you can just run `npm start`
+
+If you haven't run `npm install`, you need to run that first
+
 
 ## 🚀 Project Structure
 
