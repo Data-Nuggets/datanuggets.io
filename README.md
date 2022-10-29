@@ -4,7 +4,7 @@
 
 Make sure you have Docker installed. Then just run `./run.sh` to start the dev env in Docker.
 
-You can find the site in https://localhost:8000
+You can find the site in http://localhost:8000
 
 ## 🚀 Project Structure
 
