@@ -1,5 +1,11 @@
 # Data Nuggets Website
 
+## Running the project
+
+Make sure you have Docker installed. Then just run `./run.sh` to start the dev env in Docker.
+
+You can find the site in https://localhost:8000
+
 ## 🚀 Project Structure
 
 Inside of your Rocket project, you'll see the following folders and files:
