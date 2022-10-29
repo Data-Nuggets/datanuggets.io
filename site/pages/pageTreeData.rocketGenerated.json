@@ -74,20 +74,20 @@
           "publishDate": "12 Sep 2021"
         },
         {
-          "title": "With Image!",
-          "h1": "With Image!",
-          "name": "With Image!",
-          "menuLinkText": "With Image!",
+          "title": "Hello world!",
+          "h1": "Hello world!",
+          "name": "Hello world!",
+          "menuLinkText": "Hello world!",
           "url": "/blog/with-image/",
           "outputRelativeFilePath": "blog/with-image/index.html",
           "sourceRelativeFilePath": "blog/with-image.rocket.md",
           "level": 2,
           "alt": "Liftoff Flames",
-          "author": "Thomas Allmer (@daKmoR)",
-          "authorHref": "https://twitter.com/daKmoR",
-          "description": "Now with an image!",
+          "author": "Lauri Huhta",
+          "authorHref": "https://www.linkedin.com/in/lauri-huhta-254502137/",
+          "description": "Just a Hello World Post!",
           "heroImage": "./assets/liftoff-flames.jpg",
-          "publishDate": "13 Sep 2021",
+          "publishDate": "12 Sep 2021",
           "value": 128
         }
       ]
